@@ -4,7 +4,7 @@ const projects = [
     {
         title: "React Counter Page",
         description: "A page with buttons that count how many times they are clicked. You might find a secret if you click enough.",
-        href: "/react_asssignment_1"
+        href: '/react_assignment_1'
     }
 ];
 
