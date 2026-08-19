@@ -1,1 +1,1 @@
-# React-Assignment-1
+Bridgerland React course
