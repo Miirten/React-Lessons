@@ -16,7 +16,7 @@ export default function Page() {
 
             <nav aria-label="Project Navigation">
                 <ul>
-                    {projects.map((projects) => (
+                    {projects.map((project) => (
                         <li key={project.href}>
                             <Link href={project.href}>
                             {project.title}
