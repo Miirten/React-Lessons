@@ -13,6 +13,24 @@ const projects = [
       'A game of Tic Tac Toe with the ability to look through your past moves.',
     href: '/react_assignment_2',
   },
+  {
+    title: 'Pure clock',
+    description:
+      'Purified clock challenge.',
+    href: '/react_assignment_3_clock',
+  },
+  {
+    title: 'Pure profile',
+    description:
+      'Purified profile challenge.',
+    href: '/react_assignment_3_profile',
+  },
+  {
+    title: 'Pure story',
+    description:
+      'Purified story challenge.',
+    href: '/react_assignment_3_story',
+  },
 ];
 
 export default function Page() {
