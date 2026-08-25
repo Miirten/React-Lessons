@@ -43,6 +43,12 @@ const projects = [
       'Fixing the +3 counter to not only add +1.',
     href: '/react_assignment_4_state',
   },
+  {
+    title: 'Vacation task manager',
+    description:
+      'A task manager for a day off in Kyoto.',
+    href: '/react_assignment_5',
+  },
 ];
 
 export default function Page() {
