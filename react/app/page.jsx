@@ -31,6 +31,18 @@ const projects = [
       'Purified story challenge.',
     href: '/react_assignment_3_story',
   },
+  {
+    title: 'Interactivity queueing challenge',
+    description:
+      'Fixing the bucketlist.',
+    href: '/react_assignment_4_queueing',
+  },
+  {
+    title: 'Interactivity state challenge',
+    description:
+      'Fixing the +3 counter to not only add +1.',
+    href: '/react_assignment_4_state',
+  },
 ];
 
 export default function Page() {
