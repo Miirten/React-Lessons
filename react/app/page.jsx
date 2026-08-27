@@ -55,6 +55,12 @@ const projects = [
       'A small game of Battleship.',
     href: '/battleship_assignment',
   },
+  {
+    title: 'Referencing Values ',
+    description:
+      'Challenges for useRef.',
+    href: '/react_assignment_6_challenges',
+  },
 ];
 
 export default function Page() {
