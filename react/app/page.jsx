@@ -49,6 +49,12 @@ const projects = [
       'A task manager for a day off in Kyoto.',
     href: '/react_assignment_5',
   },
+  {
+    title: 'Mini Battleship game',
+    description:
+      'A small game of Battleship.',
+    href: '/battleship_assignment',
+  },
 ];
 
 export default function Page() {
