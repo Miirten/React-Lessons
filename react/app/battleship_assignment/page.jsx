@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-
+import Link from 'next/link';
 
 function Square({ value, onSquareClick }) {
 return ( 
@@ -292,6 +292,7 @@ export default function Game() {
 
     return (
         <main>
+            <Link href="/">← Back to projects</Link>
             <h1>Battleship</h1>
 
                   <button onClick={startNewGame}>New game</button>
