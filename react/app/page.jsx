@@ -79,6 +79,30 @@ const projects = [
       'Challenges for useRef.',
     href: '/react_assignment_6_challenges/challenge_4',
   },
+  {
+    title: 'Referencing Values 5',
+    description:
+      'Challenges for useRef.',
+    href: '/react_assignment_6_challenges/challenge_5',
+  },
+  {
+    title: 'Referencing Values 6',
+    description:
+      'Challenges for useRef.',
+    href: '/react_assignment_6_challenges/challenge_6',
+  },
+  {
+    title: 'Referencing Values 7',
+    description:
+      'Challenges for useRef.',
+    href: '/react_assignment_6_challenges/challenge_7',
+  },
+  {
+    title: 'Referencing Values 8',
+    description:
+      'Challenges for useRef.',
+    href: '/react_assignment_6_challenges/challenge_8',
+  },
 ];
 
 export default function Page() {
