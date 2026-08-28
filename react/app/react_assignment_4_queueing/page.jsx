@@ -1,5 +1,6 @@
 'use client'
 import { useState } from "react";
+import Link from 'next/link';
 
 export default function Counter() {
   const [score, setScore] = useState(0);
@@ -9,18 +10,21 @@ export default function Counter() {
   }
 
   return (
+    <main>
+      <Link href="/">← Back to projects</Link>
     <>
       <button onClick={() => increment()}>+1</button>
       <button
         onClick={() => {
-          increment();
-          increment();
-          increment();
+            increment();
+            increment();
+            increment();
         }}
-      >
+        >
         +3
       </button>
       <h1>Score: {score}</h1>
     </>
+          </main>
   );
 }

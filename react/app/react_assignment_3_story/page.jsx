@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 import StoryTray from './StoryTray.js';
+import Link from 'next/link';
 
 const initialStories = [
   {id: 0, label: "Ankit's Story" },
@@ -11,13 +12,10 @@ export default function App() {
   const [stories, setStories] = useState([...initialStories])
   const time = useTime();
 
-  // HACK: Prevent the memory from growing forever while you read docs.
-  // We're breaking our own rules here.
-//   if (stories.length > 100) {
-//     stories.length = 100;
-//   }
-
   return (
+    <main>
+            <Link href="/">← Back to projects</Link>
+
     <div
       style={{
         width: '100%',
@@ -28,6 +26,7 @@ export default function App() {
       <h2>It is {time.toLocaleTimeString()} now.</h2>
       <StoryTray stories={stories} />
     </div>
+    </main>
   );
 }
 

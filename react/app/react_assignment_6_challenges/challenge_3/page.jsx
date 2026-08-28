@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from "react";
+import Link from 'next/link';
 
 function DebouncedButton({ onClick, children }) {
   const timeoutRef = useRef(null);

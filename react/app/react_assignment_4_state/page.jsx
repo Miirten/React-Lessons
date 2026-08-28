@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import Link from 'next/link';
 
 const initialList = [
   { id: 0, title: 'Big Bellies', seen: false },
@@ -35,24 +36,28 @@ export default function BucketList() {
 
 function ItemList({ artworks, onToggle }) {
   return (
+    <main>
+      <Link href="/">← Back to projects</Link>
+
     <ul>
       {artworks.map(artwork => (
-        <li key={artwork.id}>
+          <li key={artwork.id}>
           <label>
             <input
               type="checkbox"
               checked={artwork.seen}
               onChange={e => {
-                onToggle(
-                  artwork.id,
-                  e.target.checked
-                );
-              }}
-            />
+                  onToggle(
+                      artwork.id,
+                      e.target.checked
+                    );
+                }}
+                />
             {artwork.title}
           </label>
         </li>
       ))}
     </ul>
+      </main>
   );
 }
