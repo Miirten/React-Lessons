@@ -62,6 +62,12 @@ const projects = [
     href: '/react_assignment_6_challenges',
   },
   {
+    title: 'Referencing Values 2',
+    description:
+      'Challenges for useRef.',
+    href: '/react_assignment_6_challenges/challenge_2',
+  },
+  {
     title: 'Referencing Values 3',
     description:
       'Challenges for useRef.',
