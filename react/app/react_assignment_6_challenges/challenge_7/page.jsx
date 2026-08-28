@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 
-export default function CatFriends() {
+export default function Page() {
   const itemsRef = useRef(null);
   const [index, setIndex] = useState(0);
 
