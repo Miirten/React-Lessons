@@ -94,8 +94,8 @@ const projects = [
   {
     title: 'Referencing Values 7',
     description:
-      'Challenges for useRef.',
-    href: '/react_assignment_6_challenges/challenge_7',
+      'Challenges for useRef. Not working with Vercel.',
+
   },
   {
     title: 'Referencing Values 8',
