@@ -103,6 +103,54 @@ const projects = [
       'Challenges for useRef.',
     href: '/react_assignment_6_challenges/challenge_8',
   },
+  {
+    title: 'useEffect 1',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_1',
+  },
+  {
+    title: 'useEffect 2',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_2',
+  },
+  {
+    title: 'useEffect 3',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_3',
+  },
+  {
+    title: 'useEffect 4',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_4',
+  },
+  {
+    title: 'useEffect 5',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_5',
+  },
+  {
+    title: 'useEffect 6',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_6',
+  },
+  // {
+  //   title: 'useEffect 7',
+  //   description:
+  //     'Challenges for useEffect.',
+  //   href: '/react_assignment_7_challenges/challenge_7',
+  // },
+  {
+    title: 'useEffect 8',
+    description:
+      'Challenges for useEffect.',
+    href: '/react_assignment_7_challenges/challenge_8',
+  },
 ];
 
 export default function Page() {
