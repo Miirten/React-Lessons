@@ -175,6 +175,30 @@ const projects = [
       'Challenges for Effect Lifetime.',
     href: '/react_assignment_8_challenges/challenge_5',
   },
+  {
+    title: 'Seperating Events',
+    description:
+      'Challenges for Seperating Events.',
+    href: '/react_assignment_9_challenges/challenge_1',
+  },
+  {
+    title: 'Seperating Events 2',
+    description:
+      'Challenges for Seperating Events.',
+    href: '/react_assignment_9_challenges/challenge_2',
+  },
+  {
+    title: 'Seperating Events 3',
+    description:
+      'Challenges for Seperating Events.',
+    href: '/react_assignment_9_challenges/challenge_3',
+  },
+  // {
+  //   title: 'Seperating Events 4',
+  //   description:
+  //     'Challenges for Seperating Events.',
+  //   href: '/react_assignment_9_challenges/challenge_4',
+  // },
 ];
 
 export default function Page() {
