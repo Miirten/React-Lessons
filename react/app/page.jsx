@@ -227,31 +227,37 @@ const projects = [
     title: 'Custom Hooks 1',
     description:
       'Challenges for Custom Hooks.',
-    href: '/react_assignment_10_challenges/challenge_1',
+    href: '/react_assignment_11_challenges/challenge_1',
   },
   {
     title: 'Custom Hooks 2',
     description:
       'Challenges for Custom Hooks.',
-    href: '/react_assignment_10_challenges/challenge_2',
+    href: '/react_assignment_11_challenges/challenge_2',
   },
   {
     title: 'Custom Hooks 3',
     description:
       'Challenges for Custom Hooks.',
-    href: '/react_assignment_10_challenges/challenge_3',
+    href: '/react_assignment_11_challenges/challenge_3',
   },
   {
     title: 'Custom Hooks 4',
     description:
       'Challenges for Custom Hooks.',
-    href: '/react_assignment_10_challenges/challenge_4',
+    href: '/react_assignment_11_challenges/challenge_4',
   },
   {
     title: 'Custom Hooks 5',
     description:
       'Challenges for Custom Hooks.',
-    href: '/react_assignment_10_challenges/challenge_5',
+    href: '/react_assignment_11_challenges/challenge_5',
+  },
+  {
+    title: 'Typing Speed Calculator',
+    description:
+      'Typing Speed Calculator.',
+    href: '/Typing Speed Calculator',
   },
 ];
 
