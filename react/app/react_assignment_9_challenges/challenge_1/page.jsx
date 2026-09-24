@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 export default function Timer() {
   const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ export default function Timer() {
 
   useEffect(() => {
     const id = setInterval(() => {
-      setCount((c) => c + increment);
+      setCount(c => c + increment);
     }, 1000);
     return () => {
       clearInterval(id);
@@ -24,22 +24,13 @@ export default function Timer() {
       <hr />
       <p>
         Every second, increment by:
-        <button
-          disabled={increment === 0}
-          onClick={() => {
-            setIncrement((i) => i - 1);
-          }}
-        >
-          –
-        </button>
+        <button disabled={increment === 0} onClick={() => {
+          setIncrement(i => i - 1);
+        }}>–</button>
         <b>{increment}</b>
-        <button
-          onClick={() => {
-            setIncrement((i) => i + 1);
-          }}
-        >
-          +
-        </button>
+        <button onClick={() => {
+          setIncrement(i => i + 1);
+        }}>+</button>
       </p>
     </>
   );
