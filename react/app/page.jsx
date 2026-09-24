@@ -193,12 +193,66 @@ const projects = [
       'Challenges for Seperating Events.',
     href: '/react_assignment_9_challenges/challenge_3',
   },
-  // {
-  //   title: 'Seperating Events 4',
-  //   description:
-  //     'Challenges for Seperating Events.',
-  //   href: '/react_assignment_9_challenges/challenge_4',
-  // },
+  {
+    title: 'Seperating Events 4',
+    description:
+      'Challenges for Seperating Events.',
+    href: '/react_assignment_9_challenges/challenge_4',
+  },
+  {
+    title: 'Removing Code Dependencies 1',
+    description:
+      'Challenges for Removing Code Dependencies.',
+    href: '/react_assignment_10_challenges/challenge_1',
+  },
+  {
+    title: 'Removing Code Dependencies 2',
+    description:
+      'Challenges for Removing Code Dependencies.',
+    href: '/react_assignment_10_challenges/challenge_2',
+  },
+  {
+    title: 'Removing Code Dependencies 3',
+    description:
+      'Challenges for Removing Code Dependencies.',
+    href: '/react_assignment_10_challenges/challenge_3',
+  },
+  {
+    title: 'Removing Code Dependencies 4',
+    description:
+      'Challenges for Removing Code Dependencies.',
+    href: '/react_assignment_10_challenges/challenge_4',
+  },
+  {
+    title: 'Custom Hooks 1',
+    description:
+      'Challenges for Custom Hooks.',
+    href: '/react_assignment_10_challenges/challenge_1',
+  },
+  {
+    title: 'Custom Hooks 2',
+    description:
+      'Challenges for Custom Hooks.',
+    href: '/react_assignment_10_challenges/challenge_2',
+  },
+  {
+    title: 'Custom Hooks 3',
+    description:
+      'Challenges for Custom Hooks.',
+    href: '/react_assignment_10_challenges/challenge_3',
+  },
+  {
+    title: 'Custom Hooks 4',
+    description:
+      'Challenges for Custom Hooks.',
+    href: '/react_assignment_10_challenges/challenge_4',
+  },
+  {
+    title: 'Custom Hooks 5',
+    description:
+      'Challenges for Custom Hooks.',
+    href: '/react_assignment_10_challenges/challenge_5',
+  },
 ];
 
 export default function Page() {

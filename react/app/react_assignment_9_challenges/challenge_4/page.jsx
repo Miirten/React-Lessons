@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from 'react';
 import { useEffectEvent } from 'react';
 import { createConnection, sendMessage } from './chat.js';
